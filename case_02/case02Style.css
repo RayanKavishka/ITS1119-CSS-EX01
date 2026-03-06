@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    box-shadow: 0 5px 40px 0 black;
+    position: relative;
+}
+
+.logo {
+    width: 13.5vw;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 20vw;
+    background-color: darkslateblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside > ul > li {
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section {
+    width: 80vw;
+    padding: 0 20px 20px 20px;
+}
+
+section > div {
+    width: 80vw;
+}
+
+.img-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.img-section > div {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid green;
+}
+
+.textContent p {
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: darkgrey;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

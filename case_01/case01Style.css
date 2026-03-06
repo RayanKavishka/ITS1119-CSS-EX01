@@ -1,0 +1,156 @@
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section > div {
+    width: 100vw;
+    height: 100vh;
+}
+
+section > div > div {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
+
+.topLeft {
+    background-color: red;
+}
+
+.topRight {
+    background-color: green;
+    right: 0;
+}
+
+.bottomLeft {
+    background-color: orange;
+    bottom: 0;
+}
+
+.bottomRight {
+    background-color: deeppink;
+    right: 0;
+    bottom: 0;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    width: 12.5vw;
+    height: 12.5vw;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#square1, #square2, #square3, #square4 {
+    width: 5vw;
+    height: 5vw;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.middleSquare {
+    width: 12.5vw;
+    height: 12.5vw;
+    background-color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#middleCircle {
+    width: 6.25vw;
+    height: 6.25vw;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.topCircles > div, .bottomCircles > div {
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+#topLeftSquare, #topRightSquare, #bottomLeftSquare, #bottomRightSquare {
+    width: 6.25vw;
+    height: 6.25vw;
+    background-color: white;
+    position: relative;
+}
+
+#topRectangle {
+    width: 12.5vw;
+    height: 12.5vw;
+    background-color: white;
+    position: relative;
+
+    bottom: 31.125vw;
+    left: calc(50vw - 6.25vw);
+    border-radius: 0 0 100% 100%;
+}
+
+#bottomRectangle {
+    width: 6.25vw;
+    height: 6.25vw;
+    background-color: white;
+    position: relative;
+
+    bottom: 37.5vw;
+    left: 50vw;
+    top: calc(100vh - 43.75vw);
+    border-radius: 0 100% 0 0;
+}
+
+#bottomRectangle1 {
+    width: 6.25vw;
+    height: 6.25vw;
+    background-color: white;
+    position: relative;
+
+    bottom: 43.75vw;
+    left: calc(50vw - 6.25vw);
+    top: calc(100vh - 50.02vw);
+    border-radius: 100% 0 0 0;
+}
+
+#topLeftSquare {
+    border-radius: 0 0 100% 0;
+}
+
+#topRightSquare {
+    bottom: 6.25vw;
+    left: calc(100vw - 6.25vw);
+    border-radius: 0 0 0 100%;
+}
+
+#bottomLeftSquare {
+    bottom: 12.5vw;
+    top: calc(100vh - 18.75vw);
+    border-radius: 0 100% 0 0;
+}
+
+#bottomRightSquare {
+    bottom: 18.75vw;
+    left: calc(100vw - 6.25vw);
+    top: calc(100vh - 25vw);
+    border-radius: 100% 0 0 0;
+}
